@@ -130,6 +130,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding-block: 1em;
+    background-color: var(--clr-bg);
 }
 
 .navigation {
@@ -137,6 +138,7 @@ header {
     margin: 0;
     padding: 0;
     display: flex;
+    background: var(--clr-bg);
 }
 
 .nav__item {
@@ -172,7 +174,7 @@ header {
     .mobile-nav-toggle {
         display: block;
         position: absolute;
-        z-index: 2000;
+        z-index: 200000000;
         right: 1rem;
         top: 1.5rem;
         background: transparent;
