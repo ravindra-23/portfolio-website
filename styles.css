@@ -275,7 +275,7 @@ main {
     position: relative;
     font-size: var(--fs-h2);
     color: var(--clr-highlight);
-    margin-block: 2rem;
+    margin-block: 4rem;
     text-align: center;
     font-weight: var(--fw-bold);
   }
@@ -303,6 +303,58 @@ main {
     height: 400px;
     margin-block: 2rem;
     border-radius: 8px;
+}
+
+/* Skills */
+
+.skills-image {
+    border-radius: 10px;
+}
+
+.skills-data {
+    font-size: var(--fs-h3);
+    display: flex;
+    align-items: center;
+    padding-block: 1.5rem;
+}
+
+.iconify {
+    margin-right: 2rem;
+}
+
+/* Work Section */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background: var(--clr-text);
+    color: var(--clr-bg);
+    margin-block: 2rem;
+    padding-bottom: 1rem;
+}
+
+.work-info, .project-info {
+    padding-inline: 1rem;
+}
+
+.work-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-title {
+    font-size: var(--fs-h3);
+    color: var(--clr-highlight);
+    padding-block: 1rem;
+}
+
+.project-links-container > a {
+    font-size: var(--fs-h3);
+}
+
+.project-link {
+    margin-right: 1rem;
 }
 
 
