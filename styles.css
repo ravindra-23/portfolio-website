@@ -111,6 +111,10 @@ html {
     scroll-behavior: smooth;
 }
 
+html::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     width: 90%;
     margin: 0 auto;
