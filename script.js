@@ -48,7 +48,7 @@ sra.reveal('.about-image',  { origin: 'right', delay: 400 })
 
 // Scroll Skills
 sra.reveal('.skills-image', { origin: 'left', delay: 400 })
-sra.reveal('.skills-data', { origin: 'right', interval: 200 })
+sra.reveal('.skills-data', { origin: 'right', interval: 100 })
 
 // Sroll Work
 sra.reveal('.card', { delay: 200 })
