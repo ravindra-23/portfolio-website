@@ -9,4 +9,8 @@ Checkout my other projects
 HTML, CSS, Javascript.
 Deployed on Netlify
 
+## Live Link
+
+Open [https://ravindrapatanwal.netlify.app/](https://ravindrapatanwal.netlify.app/)
+
 
