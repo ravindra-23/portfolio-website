@@ -26,3 +26,32 @@ navLink.forEach(link => {
         navToggle.setAttribute('aria-expanded', false);
     })
 })
+
+// Scroll Reveal Animations
+
+const sra = ScrollReveal({
+    origin: 'top',
+    reset: true,
+    distance: '80px',
+    duration: 2500,
+})
+
+// Scroll Home
+sra.reveal('.home-title', {})
+sra.reveal('.button', { delay: 200 })
+sra.reveal('.social-icon', { interval: 200 })
+
+// Scroll About
+sra.reveal('.section-title', {})
+sra.reveal('.about-text',  { origin: 'left', delay: 400 })
+sra.reveal('.about-image',  { origin: 'right', delay: 400 })
+
+// Scroll Skills
+sra.reveal('.skills-image', { origin: 'left', delay: 400 })
+sra.reveal('.skills-data', { origin: 'right', interval: 100 })
+
+// Sroll Work
+sra.reveal('.card', { delay: 200 })
+
+// Scroll Contact
+sra.reveal('.contact-container', { delay: 400 })
