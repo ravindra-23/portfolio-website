@@ -279,6 +279,11 @@ main {
     text-align: left;
 }
 
+.company-name {
+    color: var(--clr-highlight);
+    display: block;
+}
+
 .section-title {
     position: relative;
     font-size: var(--fs-h2);
