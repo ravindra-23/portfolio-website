@@ -276,7 +276,7 @@ main {
 
 .about-text {
     font-size: var(--fs-h3);
-    text-align: center;
+    text-align: left;
 }
 
 .section-title {
