@@ -281,7 +281,7 @@ main {
 
 .company-name {
     color: var(--clr-highlight);
-    display: block;
+    /* display: block; */
 }
 
 .section-title {
