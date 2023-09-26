@@ -215,7 +215,7 @@ header {
 main {
     margin-top: 4rem;
     padding-bottom: 2rem;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .home-title {
@@ -320,19 +320,19 @@ main {
 
 /* Skills */
 
-.skills-image {
-    border-radius: 10px;
-}
-
 .skills-data {
     font-size: var(--fs-h3);
     display: flex;
+	flex-direction: column;
+	justify-content: center;
     align-items: center;
     padding-block: 1.5rem;
 }
 
-.iconify {
-    margin-right: 2rem;
+.skills-data .iconify {
+    margin-bottom: 2rem;
+	width: 70px;
+	height: 70px;
 }
 
 /* Work Section */
@@ -417,6 +417,15 @@ main {
 
 /* Media Queries */
 
+@media (min-width: 350px) {
+    .coding-skills {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-auto-rows: minmax(100px, auto);
+		gap: 70px;
+	}
+}
+
 
 @media (min-width: 768px) {
 
@@ -441,14 +450,20 @@ main {
     }
 
     .skills-container {
+		width: 80%;
+		margin: 0 auto;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
     }
 
-    .skills-image-section {
-        width: 50%;
-    }
+	.coding-skills {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-auto-rows: minmax(100px, auto);
+		gap: 100px;
+		column-gap: 80px;
+	}
 
     .work-cards {
         display: grid;
@@ -472,9 +487,15 @@ main {
 
 }
 
+
+
 @media (min-width: 1024px) {
-    body {
+    header, section, footer {
         width: 60%;
         margin: 0 auto;
     }
+
+	#skills {
+		width: 90% !important;
+	}
 }
